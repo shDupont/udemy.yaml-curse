@@ -1,0 +1,11 @@
+host: geeker
+datacenter1:
+  location: São Paulo
+  router: 42
+
+#Utilizado para separar estruturas
+---
+host: geeker
+datacenter1:
+  location: São Paulo
+  router: 42

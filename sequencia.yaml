@@ -1,0 +1,16 @@
+# Listas, sequência - 
+# precisa de aninhhamento 
+roles: 
+  - webserver
+  - database
+
+payload:
+  - bitcoin
+  - ethereum 
+
+# Outro estilo de escrita: 
+payload2: {
+  bitcoin,
+  ethereum
+}
+

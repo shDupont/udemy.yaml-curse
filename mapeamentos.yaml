@@ -1,0 +1,6 @@
+#bloco
+#chave-valor
+host: geeker
+datacenter1:
+  location: São Paulo
+  router: 42

@@ -1,0 +1,13 @@
+host: geek
+datacenter1:
+  location: &SP
+---
+host: udemy
+datacenter1:
+  location: *SP
+---
+roles: &ghost
+  - web
+  - dnv
+---
+roles: *ghost

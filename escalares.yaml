@@ -1,0 +1,25 @@
+#Valores únicos
+#Cada um desses itens são escalares 
+#Se um valor inteiro não é utilizado para processamento, é melhor
+#ser inserido como string
+host: geeker
+datacenter:
+  location: São Paulo
+  router: "42"
+  switch: "43"
+roles: 
+  - webserver
+  - database
+#Apresenta cada item em uma linha diferente
+funcionamento: | 
+  - segunda - das 9 às 17
+  - a
+  - b
+  - c 
+#Apresenta tudo na mesma linha
+comentarios: > 
+  Leticia 
+  Dupont 
+  Rodrigues 
+  Gonçalves
+    leticia.dupont

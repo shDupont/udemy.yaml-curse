@@ -1,0 +1,11 @@
+%TAG ! tag:host:geek:
+--- 
+host: geek
+datacenter1: 
+  location: !GEEK São Paulo
+---
+host: udemy
+datacenter1:
+  location: Colorado
+  router: !!str 42
+  switch: !!str 43
